@@ -42,6 +42,7 @@ class CubeMaker extends CuboidMaker2 {
     constructor (length) {
         super(length, length, length);
     }
+    // No need to add new methods, the existing ones work just fine :)
 }
 
 const cube = new CubeMaker(2);
