@@ -9,7 +9,7 @@
 
 function consume (param1, param2, cb) {
   if (param1 && param2 && cb) {
-    return console.log(cb(param1, param2));
+    return cb(param1, param2);
   } else {
     return `Please supply all inputs`;
   }
